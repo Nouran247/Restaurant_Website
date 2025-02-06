@@ -1,0 +1,556 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bg {
+    background-image: url('imgs/shutterstock.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.bg nav {
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bg nav img {
+    width: 10%;
+    margin-top: 30px;
+    padding: 30px 20px;
+    display: inline-block;
+}
+
+.bg nav ul {
+    list-style: none;
+}
+
+.bg nav ul li {
+    display: inline-block;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+.bg nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    transition: 0.8s;
+}
+
+.bg nav ul li a:hover {
+    text-decoration: underline;
+    color: brown;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.bg .res {
+    height: 30em;
+}
+
+.bg .res .res-logo {
+    padding-top: 100px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.bg .res .res-logo img {
+    justify-content: space-evenly;
+}
+
+.bg .res .res-logo h1 {
+    color: white;
+    font-size: 60px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 400;
+    transition: 0.8s;
+}
+
+.bg .res .res-logo h4 {
+    color: white;
+    font-size: 80px;
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    transition: 0.8s;
+}
+
+
+.bg .res .res-logo h1:hover,
+.bg .res .res-logo h4:hover {
+    color: brown;
+}
+
+.bg .res .res-logo .learn,
+.bg .res .res-logo .book {
+    text-decoration: none;
+    padding: 20px 30px;
+    border: 1px;
+    border-radius: 5px;
+    margin: 5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    transition: 0.8s;
+}
+
+.bg .res .res-logo .learn {
+    background-color: #C1AB84;
+    color: white;
+}
+
+.bg .res .res-logo .book {
+    background-color: white;
+    color: #C1AB84;
+}
+
+.bg .res .res-logo .learn:hover {
+    background-color: white;
+    color: #C1AB84;
+    text-decoration: underline;
+}
+
+.bg .res .res-logo .book:hover {
+    background-color: #C1AB84;
+    color: white;
+    text-decoration: underline;
+}
+
+.we {
+    width: 70%;
+    height: 70vh;
+    padding: 50px;
+    margin: 50px 100px;
+}
+
+.we .chef img {
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+
+.we .pros {
+    width: 50%;
+    display: inline-block;
+    padding: 100px 0px;
+}
+
+.we .pros h3 {
+    color: black;
+    font-size: 40px;
+    padding: 20px 20px 5px 20px;
+    font-family: "Roboto Slab", serif;
+    font-weight: normal;
+}
+
+.we .pros h5 {
+    color: #C1AB84;
+    font-size: 40px;
+    padding: 10px;
+    font-family: "Grey Qo", cursive;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.we .pros p {
+    color: black;
+    font-size: 17px;
+    padding: 15px;
+    font-family: "Roboto Slab", serif;
+    font-weight: normal;
+}
+
+.we .pros ul {
+    list-style-type: none;
+}
+
+.we .pros ul li {
+    padding: 10px 5px;
+    font-family: "Roboto Slab", serif;
+    font-weight: normal;
+}
+
+.we .pros ul li::before {
+    content: "\1F958";
+    border-radius: 50%;
+    background-color: #C1AB84;
+    width: 25px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.we .pros ul li img {
+    width: 5%;
+    padding-top: 10px;
+    bottom: 0;
+}
+
+.reviews {
+    width: 70%;
+    height: 80vh;
+    padding: 50px;
+    margin: 300px 100px 200px 100px;
+}
+
+.reviews .comments {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    padding: 20px;
+}
+
+.reviews .drinks {
+    display: inline-block;
+    width: 50%;
+}
+
+.reviews .drinks img {
+    margin: 80px 20px;
+    width: 100%;
+    /* float: right; */
+}
+
+.reviews .comments h3 {
+    color: black;
+    font-size: 40px;
+    padding: 20px 20px 5px 20px;
+    font-family: "Roboto Slab", serif;
+    font-weight: normal;
+}
+
+.reviews .comments h5 {
+    color: #C1AB84;
+    font-size: 40px;
+    padding: 10px;
+    font-family: "Grey Qo", cursive;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.reviews .comments p {
+    color: black;
+    font-size: 17px;
+    padding: 15px;
+    font-family: "Roboto Slab", serif;
+    font-weight: normal;
+}
+
+.reviews .comments ul {
+    list-style-type: none;
+}
+
+.reviews .comments li {
+    padding: 10px 5px;
+    font-family: "Roboto Slab", serif;
+    font-weight: normal;
+    padding-left: 20px;
+}
+
+.reviews .comments li img {
+    width: 20px;
+}
+
+.bar {
+    background-image: url("imgs/shutterstock_280369721.jpg");
+    height: 40vh;
+    width: 100%;
+    padding: 20px 0px;
+    background-position: top;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.dishes {
+    height: 20vh;
+    text-align: center;
+}
+
+.dishes h2 {
+    color: black;
+    font-size: 40px;
+    padding: 10px;
+    font-family: "Roboto Slab", serif;
+    font-weight: normal;
+}
+
+.dishes h4 {
+    color: #C1AB84;
+    font-size: 40px;
+    padding: 5px;
+    font-family: "Grey Qo", cursive;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.food1,
+.food2 {
+    height: 67vh;
+    padding: 5px 150px;
+}
+
+.food1 div,
+.food2 div {
+    padding: 10px 0px;
+    /* background-color: beige; */
+    height: 100%;
+    text-align: center;
+    width: calc(96% / 3);
+    float: left;
+    margin-left: 1%;
+}
+
+.food1 div img,
+.food2 div img {
+    padding: 10px;
+    width: 90%;
+}
+
+.food1 div h2,
+.food2 div h2 {
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    font-family: "Roboto Slab", serif;
+    font-weight: normal;
+}
+
+.food1 div p,
+.food2 div p {
+    color: black;
+    font-size: 15px;
+    padding: 10px 40px;
+    font-family: "Roboto Slab", serif;
+    font-weight: normal;
+    text-align: left;
+}
+
+.but {
+    align-items: center;
+    width: 100%;
+}
+
+.menu {
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 20px 30px;
+    border: 1px;
+    border-radius: 5px;
+    margin: 5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    transition: 0.8s;
+    background-color: #C1AB84;
+    color: white;
+    margin-left: 42%;
+}
+
+.menu:hover {
+    background-color: brown;
+    color: white;
+    text-decoration: underline;
+}
+
+.test {
+    background-image: url("imgs/shutterstock.jpg");
+    height: 50vh;
+    width: 100%;
+    padding: 0px;
+    background-position: top;
+    background-size: cover;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.test .black {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.test .black h1 {
+    padding: 15px 5px;
+    margin-top: 70px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+.test .black h4 {
+    padding: 10px 5px;
+    font-family: "Roboto Slab", serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.test .black h5 {
+    margin-top: 30px;
+    padding: 20px 10px 0px;
+    font-family: "Roboto Slab", serif;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.test .black h6 {
+    padding: 5px;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.where {
+    height: 78vh;
+    padding: 5px 150px;
+}
+
+.where div {
+    display: inline-block;
+    padding: 10px 0px;
+    height: 100%;
+    text-align: left;
+    width: calc(97% / 2);
+    float: left;
+    margin-left: 1%;
+}
+
+.where .map img {
+    padding: 10px;
+    width: 90%;
+}
+
+
+.where .location h1 {
+    color: black;
+    font-size: 40px;
+    padding: 20px 20px 5px 20px;
+    font-family: "Roboto Slab", serif;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+.where .location p {
+    color: #C1AB84;
+    font-size: 17px;
+    padding: 25px;
+    font-family: "Roboto Slab", serif;
+    font-weight: normal;
+    padding-right: 40px;
+}
+
+.where .location h2 {
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    font-family: "Roboto Slab", serif;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+.where .location ul {
+    list-style-type: none;
+}
+
+.where .location ul li {
+    text-align: left;
+    padding: 7px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.where .location ul li::before {
+    content: "\21E8";
+    margin-right: 8px;
+}
+
+.where .location ul li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.8s;
+}
+
+.where .location ul li a:hover {
+    text-decoration: none;
+    color: #C1AB84;
+}
+
+::selection {
+    background-color: #C1AB84;
+    color: white;
+}
+
+.copyright {
+    margin-top: 100px;
+    height: 35vh;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(38, 12, 12);
+}
+
+.copyright img {
+    margin-top: 30px;
+    height: 70%;
+}
+
+.copyright p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .bg nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bg nav img {
+        width: 20%;
+    }
+
+    .we,
+    .reviews {
+        flex-direction: column;
+    }
+
+    .food1 div,
+    .food2 div {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .bg nav img {
+        width: 25%;
+    }
+
+    .bg nav ul {
+        gap: 10px;
+    }
+
+    .food1 div,
+    .food2 div {
+        width: 100%;
+    }
+
+    .bg .res .res-logo h1,
+    .bg .res .res-logo h4 {
+        font-size: 1.5rem;
+    }
+
+    .menu {
+        width: 90%;
+    }
+}
